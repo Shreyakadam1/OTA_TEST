@@ -32,37 +32,5 @@
 }
 
 
-{
-  "file": {
-    "path1": "/CS1N5D.txt",
-    "path2": "/CS1N5HB.txt"
-  },
-  "wifi": [
-    {
-      "ssid": "vivo Y21T",
-      "password": "Yogitasutar"
-    }
-  ],
-  "DeviceID": {
-    "ID": "CS1005"
-  },
-  "mqtt": {
-    "enable": true,
-    "url": "mqtt://192.168.1.88:1883",
-    "topics": {
-      "data": "CS1/N6/DATA",
-      "heartbeat": "CS1/N6/HB"
-    }
-  },
-  "heartbeat": {
-    "delay_ms": 300000
-  },
-  "DataReport": {
-    "delay_ms": 1000
-  },
-  "Version": {
-    "V": "V0.1"
-  }
-}
 
 
