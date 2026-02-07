@@ -1,35 +1,51 @@
 {
   "file": {
-    "path1": "/CS1N5D.txt",
-    "path2": "/CS1N5HB.txt"
+    "path1": "/SU3N5D.txt",
+    "path2": "/SU3N5HB.txt",
+    "errpath": "/SU3N5ER.txt"
   },
+
   "wifi": [
     {
-      "ssid": "vivo Y21T",
-      "password": "Yogitasutar"
+      "ssid": "SM-0C9D-3-4G",
+      "password": "05022026-3"
     }
   ],
+
   "DeviceID": {
-    "ID": "CS1005"
+    "ID": "D045",
+    "MAC": "90:70:69:16:c9:cc"
   },
+
   "mqtt": {
     "enable": true,
-    "url": "mqtt://192.168.1.88:1883",
+    "url": "mqtt://192.168.0.144:1883",
     "topics": {
-      "data": "CS1/N6/DATA",
-      "heartbeat": "CS1/N6/HB"
+      "data": "SU1/90:70:69:16:c9:cc/DATA",
+      "heartbeat": "SU1/90:70:69:16:c9:cc/HB",
+      "errlog": "SU1/90:70:69:16:c9:cc/ERR"
     }
   },
+
   "heartbeat": {
     "delay_ms": 300000
   },
+
   "DataReport": {
-    "delay_ms": 1000
+    "delay_ms": 2000
   },
+
   "Version": {
-    "V": "V0.1"
+    "V": "V1.0",
+    "JsonVersion": "V1.2"
+  },
+
+  "JSONFile": {
+    "FILENAME": "16c9cc.txt"
+  },
+
+  "OTA": {
+    "url": "https://api.github.com/repos/Shreyakadam1/OTA_TEST/releases/latest",
+    "OTATime": "235800"
   }
 }
-
-
-
