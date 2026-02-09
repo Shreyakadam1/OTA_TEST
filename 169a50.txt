@@ -1,1 +1,51 @@
+{
+  "file": {
+    "path1": "/CS1N1D.txt",
+    "path2": "/CS1N1HB.txt",
+    "errpath": "/CS1N1ER.txt"
+  },
 
+  "wifi": [
+    {
+      "ssid": "SM-0CD5-1-4G",
+      "password": "05022026-1"
+    }
+  ],
+
+  "DeviceID": {
+    "ID": "CS1005",
+    "MAC": "MACID"
+  },
+
+  "mqtt": {
+    "enable": true,
+    "url": "mqtt://192.168.0.144:1883",
+    "topics": {
+      "data": "CS1/MAC/DATA",
+      "heartbeat": "CS1/MAC/HB",
+      "errlog": "CS1/MAC/ERR"
+    }
+  },
+
+  "heartbeat": {
+    "delay_ms": 300000
+  },
+
+  "DataReport": {
+    "delay_ms": 2000
+  },
+
+  "Version": {
+    "V": "V1.0",
+    "JsonVersion": "V1.0"
+  },
+
+  "JSONFile": {
+    "FILENAME": "7386BC.txt"
+  },
+
+  "OTA": {
+    "url": "https://api.github.com/repos/Shreyakadam1/OTA_TEST/releases/latest",
+    "OTATime": "235800"
+  }
+}
