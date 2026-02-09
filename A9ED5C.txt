@@ -7,8 +7,8 @@
 
   "wifi": [
     {
-      "ssid": "Sectrconsol_4G",
-      "password": "Gitar@7671"
+      "ssid": "SM-0CD5-1-4G",
+      "password": "05022026-1"
     }
   ],
 
