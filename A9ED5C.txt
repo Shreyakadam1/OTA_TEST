@@ -7,8 +7,8 @@
 
   "wifi": [
     {
-      "ssid": "SM-0CD5-1-4G",
-      "password": "05022026-1"
+      "ssid": "SM-0000-0-4G",
+      "password": "05022026-0"
     }
   ],
 
@@ -19,7 +19,7 @@
 
   "mqtt": {
     "enable": true,
-    "url": "mqtt://192.168.0.88:1883",
+    "url": "mqtt://192.168.0.102:1883",
     "topics": {
       "data": "SU3/90:70:69:16:c9:cc/DATA",
       "heartbeat": "SU3/90:70:69:16:c9:cc/HB",
@@ -36,8 +36,8 @@
   },
 
   "Version": {
-    "V": "V1.7",
-    "JsonVersion": "V1.7"
+    "V": "V1.8",
+    "JsonVersion": "V1.8"
   },
 
   "JSONFile": {
