@@ -32,12 +32,12 @@
   },
 
   "DataReport": {
-    "delay_ms": 2000
+    "delay_ms": 5000
   },
 
   "Version": {
-    "V": "V1.4",
-    "JsonVersion": "V1.4"
+    "V": "V1.5",
+    "JsonVersion": "V1.5"
   },
 
   "JSONFile": {
