@@ -36,8 +36,8 @@
   },
 
   "Version": {
-    "V": "V1.2",
-    "JsonVersion": "V1.2"
+    "V": "V1.1",
+    "JsonVersion": "V1.1"
   },
 
   "JSONFile": {
