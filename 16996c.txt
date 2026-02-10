@@ -1,1 +1,51 @@
+{
+  "file": {
+    "path1": "/SU2N2D.txt",
+    "path2": "/SU2N2HB.txt",
+    "errpath": "/SU2N2ER.txt"
+  },
 
+  "wifi": [
+    {
+      "ssid": "SM-0CA5-2-4G",
+      "password": "05022026-2"
+    }
+  ],
+
+  "DeviceID": {
+    "ID": "D037",
+    "MAC": "90:70:69:16:99:6c"
+  },
+
+  "mqtt": {
+    "enable": true,
+    "url": "mqtt://192.168.0.144:1883",
+    "topics": {
+      "data": "SU2/90:70:69:16:99:6c/DATA",
+      "heartbeat": "SU2/90:70:69:16:99:6c/HB",
+      "errlog": "SU2/90:70:69:16:99:6c/ERR"
+    }
+  },
+
+  "heartbeat": {
+    "delay_ms": 300000
+  },
+
+  "DataReport": {
+    "delay_ms": 2000
+  },
+
+  "Version": {
+    "V": "V1.1",
+    "JsonVersion": "V1.1"
+  },
+
+  "JSONFile": {
+    "FILENAME": "16996c.txt"
+  },
+
+  "OTA": {
+    "url": "https://api.github.com/repos/Shreyakadam1/Storage-Unit-2/releases/latest",
+    "OTATime": "235800"
+  }
+}
