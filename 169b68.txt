@@ -19,7 +19,7 @@
 
   "mqtt": {
     "enable": true,
-    "url": "mqtt://192.168.0.144:1883",
+    "url": "mqtt://192.168.21.85:1883",
     "topics": {
       "data": "SU3/90:70:69:16:9b:68/DATA",
       "heartbeat": "SU3/90:70:69:16:9b:68/HB",
