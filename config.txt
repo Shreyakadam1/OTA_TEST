@@ -1,8 +1,8 @@
 {
   "file": {
-    "path1": "/SU1N1D.txt",
-    "path2": "/SU1N1HB.txt",
-    "errpath": "/SU1N1ER.txt"
+    "path1": "/SU1N2D.txt",
+    "path2": "/SU1N2HB.txt",
+    "errpath": "/SU1N2ER.txt"
   },
 
   "wifi": [
@@ -13,17 +13,17 @@
   ],
 
   "DeviceID": {
-    "ID": "D031",
-    "MAC": "90:70:69:16:9a:50"
+    "ID": "D032",
+    "MAC": "90:70:69:16:c7:78"
   },
 
   "mqtt": {
     "enable": true,
     "url": "mqtt://192.168.21.85:1883",
     "topics": {
-      "data": "SU1/90:70:69:16:9a:50/DATA",
-      "heartbeat": "SU1/90:70:69:16:9a:50/HB",
-      "errlog": "SU1/90:70:69:16:9a:50/ERR"
+      "data": "SU1/90:70:69:16:c7:78/DATA",
+      "heartbeat": "SU1/90:70:69:16:c7:78/HB",
+      "errlog": "SU1/90:70:69:16:c7:78/ERR"
     }
   },
 
@@ -36,12 +36,12 @@
   },
 
   "Version": {
-    "V": "V1.2",
-    "JsonVersion": "V1.2"
+    "V": "V1.1",
+    "JsonVersion": "V1.1"
   },
 
   "JSONFile": {
-    "FILENAME": "169a50.txt"
+    "FILENAME": "16c778.txt"
   },
 
   "OTA": {
